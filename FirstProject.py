@@ -1,2 +1,2 @@
-my_firstProject "Hello World!"
-print my_firstProject
+firstProject  = "Hello World!"
+print (firstProject)
