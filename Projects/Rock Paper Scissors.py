@@ -1,3 +1,5 @@
+from random import *
+
 currentGame = -1
 
 def compare(userChoice, computerChoice):
@@ -15,10 +17,10 @@ def compare(userChoice, computerChoice):
 
 def playGame():
     userChoice =input("Do you choose rock, paper or scissors?")
-    if userChoice == null:
+    if userChoice == "":
         return
     userChoice = userChoice.lower()
-    computerChoice = Math.random()
+    computerChoice = random.Seed()
 
     if computerChoice < 0.34:
         return computerChoice == "rock"
@@ -41,7 +43,6 @@ def playGame():
 
     resultGame == "Result of game " + currentGame + ": " + resultText + "<br>"
 
-    currentGame == currentGame++
-       playGame()
+    playGame()
 
 playGame()
